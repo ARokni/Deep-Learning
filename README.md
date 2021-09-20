@@ -5,7 +5,7 @@
 
  :two: **Second Project**: Implementation of a **Segnet Network** for the problem of **Semantic Segmentation** on Camvid dataset using **PyTorch**.
 
-:three: **Third Prokect**: `*Object Counting` From an Individual Image** task using CCNN on SHanghaitech dataset using `PyTorch`.
+:three: **Third Project**: `*Object Counting` From an Individual Image** task using CCNN on SHanghaitech dataset using `PyTorch`.
 
 :four: **Fourth Project**: `Image Captioning` task using `CNN` and `LSTM` on `Flickr8k` dataset using `PyTorch`.
 
