@@ -18,7 +18,9 @@
     -  For the CNN part I have applied a pretrained **`Resnet18`**. The last layer of the resnet is replaced with a linear layer in order to provide the required features of an image.
     - For the LSTM I utilized the LSTM module that is available in PyTorch. The output of the LSTM is given to a linear layer that convert the output of the LSTM to a vector with the **vocabulary** size dimension.
     - Afther the model was trained  I implemented a function to caption the test images. This function is provided in my notbook with **caption_prediction**.
+
+    ![alt text](https://github.com/ARokni/Deep-Learning/blob/main/Project%204/img/model.JPG)
     
-* In **Part 1**, all layers of  **Resnet18** except the last linear layer has been freezed in the training process. `Cross Entropy` and `Adam` are utilized as loss function and optimzer. The hyperparameters has been determined by means of search and trail. The codes and results are provided in [Deep_ImageCaptioning_part1.ipynb]().
+* In **Part 1**, all layers of  **Resnet18** except the last linear layer has been freezed in the training process. **`Cross Entropy`** and **`Adam`** are utilized as loss function and optimzer. The hyperparameters has been determined by means of search and trail. The codes and results are provided in [Deep_ImageCaptioning_part1.ipynb]().
 
 * In **Part 2**, in contrast to **Part 1**, all layers of **Resnet18** trained with the rest of the model. All other conditions are the same as **Part 1**. The codes and results are provided in [Deep_ImageCaptioning_part2.ipynb]().
