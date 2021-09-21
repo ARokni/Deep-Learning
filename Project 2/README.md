@@ -1,5 +1,5 @@
 # Second Project
-* In this project, I have implemented a `Segnet Network` in order to perform the `Semantic-Segmentation` task on `UTKFace` dataset.
+* In this project, I have implemented a `Segnet Network` [[1]](#1) in order to perform the `Semantic-Segmentation` task on `UTKFace` dataset.
     
 * In **Part A**, a **Segnet** architecture [[1]](#1) has been implemented; however, the training scheme and hyperparameters are not the same as the reference paper. In contrast to [[1]](#1) , I have trained the whole network at once (instead of training different encoder-decoder pairs in separate steps). Moreover, I have utilized two optimizers, `SGD` and `Adam`, to train the net and to compare the results. Consistent with the grounds mentioned in [[2]](#2), an intelligent person can figure out from the results in my notebooks that **Adam** has a higher convergence rate than the **SGD** optimizer, which results in a better performance in lower iterations. The codes and results are provided in [Deep_Segnet_Adam.ipynb](https://github.com/ARokni/Deep-Learning/blob/main/Project%202/PartA/Deep_Segnet_Adam.ipynb) (**Segnet** with **Adam** optimizer) and in [Deep_Segnet_SGD.ipynb](https://github.com/ARokni/Deep-Learning/blob/main/Project%202/PartA/Deep_Segnet_SGD.ipynb) (Segnet with **SGD** optimizer) notebooks.
 
