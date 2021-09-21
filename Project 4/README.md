@@ -6,12 +6,12 @@
 * **Preprocess**: 
     * **Images**
         - First, due to the varied sizes of images, I have utilized a transformation to resize all images to a specified shape.
-        - Second, I applied a random crop on each image for `data augmentation` issue.
+        - Second, I applied a random crop on each image for `Data Augmentation` issue.
         - In the end, I normalized all the images in order to cope the problems of uneven large-scale fatures.
     * **Captions**
         -   First, I have loaded the captions into a dataframe, and then I  lower cased all the letters and eliminated all punctuations and irrelevant characters from the captions.
-        - second, constructed  a `vocabulary` based on the captions.
-        - In the end, I have utilized `padding` to have sentences with same length at each batch of the data. 
+        - second, constructed  a `Vocabulary` based on the captions.
+        - In the end, I have utilized **`Padding`** to have sentences with same length at each batch of the data. 
     
 * **Network's Model** 
     - I have applied a **Hybrid** LSTM and CNN architecture: the CNN part extracts the features of a given image, then the LSTM part utilize the features in order to provide a meaningful sentence that describes the image. 
