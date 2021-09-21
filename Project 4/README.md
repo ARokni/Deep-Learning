@@ -21,6 +21,6 @@
 
     ![alt text](https://github.com/ARokni/Deep-Learning/blob/main/Project%204/img/model.JPG)
     
-* In **Part 1**, all layers of  **Resnet18** except the last linear layer has been freezed in the training process. **`Cross Entropy`** and **`Adam`** are utilized as loss function and optimzer. The hyperparameters has been determined by means of search and trail. The codes and results are provided in [Deep_ImageCaptioning_part1.ipynb]().
+* In **Part 1**, all layers of  **Resnet18** except the last linear layer has been freezed in the training process. **`Cross Entropy`** and **`Adam`** are utilized as loss function and optimzer. The hyperparameters has been determined by means of search and trail. The codes and results are provided in [Deep_ImageCaptioning_part1.ipynb](https://github.com/ARokni/Deep-Learning/blob/main/Project%204/Part1/Problem1_Part1.ipynb).
 
-* In **Part 2**, in contrast to **Part 1**, all layers of **Resnet18** trained with the rest of the model. All other conditions are the same as **Part 1**. The codes and results are provided in [Deep_ImageCaptioning_part2.ipynb]().
+* In **Part 2**, in contrast to **Part 1**, all layers of **Resnet18** trained with the rest of the model. All other conditions are the same as **Part 1**. The codes and results are provided in [Deep_ImageCaptioning_part2.ipynb](https://github.com/ARokni/Deep-Learning/blob/main/Project%204/Part2/Problem1_Part2.ipynb).
